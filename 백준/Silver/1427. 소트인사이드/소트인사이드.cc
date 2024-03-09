@@ -21,9 +21,9 @@ int main()
        f=f/10;
     }
     
-    a[i+1]=f;
+    a[i]=f;
     
-    sort(a,a+i+2,greater<int>());
+    sort(a,a+i+1,greater<int>());
     
     
     for(j=0;j<=i;j++){
